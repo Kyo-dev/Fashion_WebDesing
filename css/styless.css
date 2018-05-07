@@ -35,3 +35,24 @@ label, input, textarea {
 
 .logo {
   width: 21%; }
+
+.main-nav {
+  background-color: #FFAD01;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  width: 9em;
+  height: 100vh; }
+
+.main-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .main-menu__item {
+    border-bottom: 1px solid #514077; }
+  .main-menu__link {
+    line-height: 2.4;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase; }
