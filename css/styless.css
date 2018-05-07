@@ -23,5 +23,15 @@ a {
 label, input, textarea {
   display: block; }
 
-body {
-  background: red; }
+.l-header {
+  background-color: #514077; }
+  .l-header .l-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+
+.logo {
+  width: 21%; }

@@ -1,1 +1,10 @@
-
+.l-header{
+    background-color: $color_1;
+    .l-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.logo{
+    width: 21%;
+}
