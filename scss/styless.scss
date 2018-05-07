@@ -1,0 +1,25 @@
+//COLORS
+$color_1:#514077;
+$color_2: #924992;
+$color_3: #FFAD01;
+$black: #111;
+$white: #fff;
+
+//FONTS
+    //TITLE
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+$font_title: 'Oswald', sans-serif;
+    //CONTENT
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+$font_content: 'Lato', sans-serif;
+    //WIDTH
+$light: 300;
+$normal: 400;
+
+//LOYOUT
+$max_width: 1200px;
+
+//IMPORTS
+
+@import "componets/base";
+@import "componets/header";
