@@ -2,9 +2,9 @@
     background-color: $color_3;
     position: fixed;
     top: 0;
-    right: 0;
+    right: -$canvas;
     padding: 1em;
-    width: 9em;
+    width: $canvas;
     height: 100vh;
 }
 
@@ -16,7 +16,7 @@
         border-bottom: 1px solid rgba($color_1, 30%);
     }
     &__link{
-        line-height: 2.4;
+        line-height: 2.9;
         display: block;
         font-family: $font_title;
         text-transform: uppercase;

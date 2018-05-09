@@ -19,8 +19,11 @@ $normal: 400;
 //LOYOUT
 $max_width: 1200px;
 
+// CANVAS
+$canvas: 12em;
 //IMPORTS
 
 @import "componets/base";
 @import "componets/header";
 @import "componets/menu";
+@import "componets/banner";

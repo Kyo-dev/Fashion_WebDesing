@@ -34,15 +34,15 @@ label, input, textarea {
     justify-content: space-between; }
 
 .logo {
-  width: 21%; }
+  width: 18%; }
 
 .main-nav {
   background-color: #FFAD01;
   position: fixed;
   top: 0;
-  right: 0;
+  right: -12em;
   padding: 1em;
-  width: 9em;
+  width: 12em;
   height: 100vh; }
 
 .main-menu {
@@ -52,7 +52,7 @@ label, input, textarea {
   .main-menu__item {
     border-bottom: 1px solid #514077; }
   .main-menu__link {
-    line-height: 2.4;
+    line-height: 2.9;
     display: block;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase; }
