@@ -1,0 +1,25 @@
+.buttom{
+    display: inline-block;
+    line-height: 2.5;
+    padding: 0 1.2em;
+    margin-top: 1em .5em 0;
+    color: $white;
+    &.primary{
+        background: $color_1;
+        &:hover{
+            background: darken($color_1,5)
+        }
+    }
+    &.secundary{
+        background: $color_2;
+        &:hover{
+            background: darken($color_2,5)
+        }
+    }
+    &.third{
+        background: $color_3;
+        &:hover{
+            background: darken($color_3, 5);
+        }
+    }
+}
