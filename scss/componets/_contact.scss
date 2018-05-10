@@ -1,0 +1,33 @@
+.contact{
+[type="submit"]{
+    text-transform: uppercase;
+    line-height: 3;
+    width: auto;
+    cursor: pointer;
+}
+    &__data{
+        &__address{
+            color: $color_2;
+        }
+        &__phone{
+            color: $color_2;
+        }
+    }
+    &__form{
+        input, textarea{
+            width: 100%;
+            line-height: 1.8em;
+            border: 1px solid rgba($black, .25);
+            margin-bottom: 1em;
+        }
+        label{
+            opacity: .4;
+            font-size: .9em;
+        }
+    }
+}
+.mod__subtitle{
+    font-family: $font_title;
+    font-size: 1.5em;
+    color: rgba($black, .9);
+}
