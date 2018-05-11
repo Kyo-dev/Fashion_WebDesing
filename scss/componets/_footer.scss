@@ -1,0 +1,9 @@
+.footer{
+    background: $color_2;
+    padding: .3em;
+    &__item{
+        text-align: center;
+        color: $white;
+        line-height: .5em;
+    }
+}
