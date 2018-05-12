@@ -21,6 +21,27 @@ $max_width: 1200px;
 
 // CANVAS
 $canvas: 12em;
+
+// MEDIA QUERY
+
+@mixin from ($size){
+    @media screen and (min-width: $size) {
+        @content;
+    }
+}
+
+// BREAKPOINTS
+
+// SMALL
+$S: 480px;
+// MEDIUM
+$M: 768px;
+// LARGE
+$L: 1025;
+// EXTRA LARGE
+$XL: 1400;
+
+
 //IMPORTS
 
 @import "componets/base";

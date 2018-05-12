@@ -1,12 +1,23 @@
 .staff{
-    margin: 1.5em;
+    @include from($S){
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-between;
+    }
+
     &__title{
         text-align: center;
+        width: 100%;
         font-family: $font_title;
         font-size: 1.5em;
         color: darken($black,5);
     }
     &__item{
+        @include from($S){
+            width: calc(50% - .5em);
+            margin: 0 0 1em;
+        }
+
         padding: 1em 0 0 0;
         background: darken($white,5); 
         margin-bottom: 2em; 
@@ -14,6 +25,7 @@
         margin-left: auto;
         margin-right: auto;
         border: solid 1px rgba($color_1,.3);
+      
         &__img{
             border-radius: 50%;
             max-width: 90%;
